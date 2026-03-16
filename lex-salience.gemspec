@@ -3,7 +3,7 @@
 require_relative 'lib/legion/extensions/salience/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'legion-extensions-salience'
+  spec.name          = 'lex-salience'
   spec.version       = Legion::Extensions::Salience::VERSION
   spec.authors       = ['Esity']
   spec.email         = ['matthewdiverson@gmail.com']
@@ -23,4 +23,5 @@ Gem::Specification.new do |spec|
 
   spec.files         = Dir['lib/**/*']
   spec.require_paths = ['lib']
+  spec.add_development_dependency 'legion-gaia'
 end

@@ -7,3 +7,5 @@ group :development, :test do
   gem 'rspec'
   gem 'rubocop'
 end
+
+gem 'legion-gaia', path: '../../legion-gaia'
